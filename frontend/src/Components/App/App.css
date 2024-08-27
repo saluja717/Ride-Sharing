@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+    border: 1px solid #d5d5d5;
+}

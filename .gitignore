@@ -1,0 +1,10 @@
+# Ignore .env files in both frontend and server
+/frontend/.env
+/server/.env
+
+# Ignore node_modules in both frontend and server
+/frontend/node_modules/
+/server/node_modules/
+
+# Ignore vercel.json in server only
+/server/vercel.json
