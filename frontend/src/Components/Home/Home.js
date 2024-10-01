@@ -60,7 +60,7 @@ const Home = () => {
     return (
         <>
             <div onClick={Navigate} style={{ width: "90%", height: "40%", padding: "20px 0", position: "relative", margin: "auto", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                <div className="web_name">Companion</div>
+                <div className="web_name">Ride Sharing</div>
                 <div className="user_style">
                     {user.user_name ? <div>Hii {user.user_name}</div> : null}
                     <Button variant="contained" endIcon={<SendIcon />} type="submit">Have a Journey?</Button>
