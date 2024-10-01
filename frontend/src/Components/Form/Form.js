@@ -90,7 +90,7 @@ const Form = () => {
             <div className='field'>
                 <form onSubmit={SubmitHandler}>
                     <div><ArrowBackIcon onClick={() => navigate('/')} style={{ fontSize: "50px", paddingLeft: "15px", paddingTop: "15px", position: "relative", cursor: "pointer" }} /> </div>
-                    <div className="web_name" style={{ fontSize: "100px", textAlign: 'center', marginBottom: "3%", position: "relative", height: "fit-content" }}>Companion</div>
+                    <div className="web_name" style={{ fontSize: "100px", textAlign: 'center', marginBottom: "3%", position: "relative", height: "fit-content" }}>Ride Sharing</div>
                     <div className='heading'><Typewriter options={{ strings: ['Submit your Journey Details'], autoStart: true, loop: true }} /></div>
                     <div className='sub_field'>
                         <TextField id="outlined-basic" name='user_name' value={data.user_name} onChange={HandleData} required className='width_change' label="Name" variant="outlined" />
