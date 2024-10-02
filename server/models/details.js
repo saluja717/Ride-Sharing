@@ -47,7 +47,7 @@ const TravelDetailsSchema = new mongoose.Schema({
         type: Date,
         default: Date.now
     },
-    expire: {
+    expiresAfter: {
         type: Date,
         require: true,
     },
@@ -57,7 +57,7 @@ const TravelDetailsSchema = new mongoose.Schema({
     }
 });
 
-TravelDetailsSchema.index({ expire: 1 }, { expireAfterSeconds: 0 });
+TravelDetailsSchema.index({ expiresAfter: 1 }, { expireAfterSeconds: 1 });
 
 const TravelDetails = new mongoose.model("TravelDetails", TravelDetailsSchema);
 
